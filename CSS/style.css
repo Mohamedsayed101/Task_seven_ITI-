@@ -1,1 +1,166 @@
-/* Mohamed Sayed Omar  */
+/* ====== Global Variables ====== */
+:root {
+  --main-color: #4CAF50;
+  --main-dark: #388E3C;
+  --light-bg: #f0f8f5;
+  --section-bg: #ffffff;
+  --section-green-bg: #e8f5e9;
+  --tips-bg: #e0f2f1;
+  --box-border: #4CAF50;
+  --box-border-tips: #8BC34A;
+  --text-color: #333;
+  --button-text: white;
+  --hero-text: white;
+  --contact-text: white;
+  --hover-color:#bb77a8;
+}
+
+/* ====== Golbal Rules ====== */
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--light-bg);
+  color: var(--text-color);
+  text-align: center;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+::selection {
+    background-color: var(--main-color);
+    color: var(--light-bg);
+}
+
+h1, h2, h3 {
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Don't Work why ??? */
+/* button:hover {
+    background-color: var(--hover-color);
+    color: var(--text-color);
+} */
+
+/* ====== Header ====== */
+.header {
+  background-color: var(--main-color);
+  color: var(--button-text);
+  padding: 20px;
+}
+
+/* ====== Hero Section ====== */
+.hero {
+  background-image: url("../Images/healthier-swaps.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 700px;
+  color: var(--hero-text);
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+
+.hero h2 {
+  color: var(--main-color);
+  font-size: 36px;
+}
+
+.hero button {
+  background-color: var(--box-border-tips);
+  color: var(--button-text);
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.hero button:hover {
+  background-color: var(--hover-color);
+  color: var(--text-color);
+}
+
+/* ====== About Section ====== */
+.about {
+  padding: 40px 20px;
+  background-color: var(--section-bg);
+}
+
+.about img {
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+  margin: 20px 0;
+}
+
+/* ====== Plans Section ====== */
+.plans {
+  padding: 40px 20px;
+  background-color: var(--section-green-bg);
+}
+
+.plan-box {
+  border: 2px solid var(--box-border);
+  background-color: var(--section-bg);
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.plan-box h3 {
+  margin-bottom: 10px;
+}
+
+.plan-box button {
+  background-color: var(--main-color);
+  color: var(--button-text);
+}
+
+
+.plan-box button:hover {
+  background-color: var(--hover-color);
+  color: var(--text-color);
+}
+
+
+/* ====== Tips Section ====== */
+.tips {
+  background-color: var(--tips-bg);
+  padding: 40px 20px;
+}
+
+.tip-box {
+  border: 1px solid var(--box-border-tips);
+  background-color: var(--section-bg);
+  margin: 15px auto;
+  padding: 15px;
+  width: 80%;
+  border-radius: 8px;
+}
+
+/* ====== Contact Section ====== */
+.contact {
+  background-image: url("../Images/fit-food.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 60px 20px;
+  color: var(--contact-text);
+}
+
+/* ====== Footer ====== */
+.footer {
+  background-color: var(--main-dark);
+  color: var(--button-text);
+  padding: 15px;
+  font-size: 14px;
+}
