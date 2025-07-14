@@ -1,3 +1,13 @@
+ملاحظات هامة ارجو  قراءتها كاملة 
+
+I want to clarify a few points about the project.
+First, the project A-Z without AI.
+Second, the added emojis are done using HTML Entities by searching for them on Google.
+Third, I built the readme myself from A to Z, and it's fairly modest and simple.
+Fourth, and this is the most important point, the design may not be the best, but that's because it didn't use parts of CSS that we haven't touched on yet. I was literally suffocated and unable to work with what we've come up with so far.
+I hope you like it, and the future is exciting, God willing.
+
+
 This project is made by Engineer Mohamed Sayed Omar 
 and he has full copyright and printing rights, etc.
 
