@@ -50,22 +50,24 @@ project/
 
 ## Visual Overview
 
+
 ### Hero Section  
-![Hero](Images/hero-preview.jpg)
+![Hero](Images/p-1.png)
+
+
+
 
 ### About Section  
-![About](Images/about-preview.jpg)
+![About](Images/p-2.png)
+
 
 ### Meal Plans  
-![Plans](Images/plans-preview.jpg)
+![Plans](Images/p-3.png)
 
-### Tips Section  
-![Tips](Images/tips-preview.jpg)
 
-### Contact Section  
-![Contact](Images/contact-preview.jpg)
+### Tips Section  and Contact Section  
+![Tips](Images/p-3.png)
 
-> *(Note: Replace preview images above with actual screenshots from your project folder)*
 
 ---
 
